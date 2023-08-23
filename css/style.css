@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600&family=Poppins:wght@100;300;400&display=swap");
+
+@import url("../node_modules/animate/animate.css");
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: .9;
+  background-color: #00273f;
+  padding: 0;
+}
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  /* border-color: #fff; */
+  border: none;
+  padding: 5px;
+}
+
+.navbar-profile {
+  width: 40px;
+  height: 40px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.home {
+  position: relative;
+  background-image: url("../img/img4.jpg");
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.home-1 {
+  position: relative;
+  background-image: url("../img/tno.jpg");
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.content {
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.content-register {
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer{
+  background-color: #00273f;
+  opacity: .9;
+  color: #fff;
+
+
+}
+
+.register {
+  margin: 0 auto;
+}
+.home-register {
+  background-image: url("../img/img5.jpg");
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+.register-form {
+  position: absolute;
+  top: 100px;
+  /* margin-left: 350px; */
+}
+
+.login {
+  position: absolute;
+  top: 200px;
+  right: 3%;
+  /* margin: 0 auto; */
+}
+.profile {
+  position: absolute;
+  top: 80px;
+  right: 0%;
+  margin: 0 auto;
+  /* background: #cfd9de; */
+}
+.home-login {
+  background-image: url("../img/img6.jpg");
+  width: 100%;
+  /* height: 80vh; */
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+.content-login {
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+.home-title {
+  position: absolute;
+  top: 40vh;
+  /* z-index: 1; */
+  color: #fff;
+}
+
+.input {
+  height: 50px;
+}
+.input-bg {
+  background-color: #00b0e5;
+  color: #fff;
+}
+.input-bg:hover {
+  background-color: #0fc7ff;
+}
+.two-img {
+  width: 200px;
+}
+
+.jobs-home {
+  background-image: url("../img/yoma-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.jobs-home-wave {
+  background-image: url("../img/wave-feature-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.jobs-home-atom {
+  background-image: url("../img/atom-feature.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.jobs-home-myanmar-net {
+  background-image: url("../img/myanmarnet-feature-2.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.jobs-home-coca-cola {
+  background-image: url("../img/coca\ cola-feature.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+
+.jobs-home-anycall {
+  background-image: url("../img/anycall-feature-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* opacity: .7; */
+}
+.all-company-bg {
+  /* width: 374px; */
+  width: 100%;
+  height: 200px;
+  background: black;
+  position: absolute;
+  opacity: 0.4;
+}
+.jobs-content {
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+.jobs-content-title {
+  position: absolute;
+  top: 70vh;
+  color: #000;
+  height: 35vh;
+  width: 95%;
+  margin-left: 40px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.detail-bg{
+  background-color: #ebecf14d;
+}
+.btn-color {
+  background-color: #00b0e5;
+  color: #fff;
+}
+.btn-color:hover {
+  background-color: #0fc7ff;
+  color: #fff;
+}
+
+.jobs-bg {
+  background-color: #edf1f275;
+}
+.jobs-border {
+  border-bottom: 5px solid #00b0e5;
+}
+
+.full-time {
+  background-image: url("../img/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.all-jobs {
+  background-image: url("../img/cover.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.centered-element {
+  position: absolute;
+  top: 35%;
+  /* left: 33%;
+  right: 33%; */
+  right: 0;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 150px;
+  /* Optionally, add width and height properties */
+}
+#alertbox { 
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.del-icon {
+  position: absolute;
+  top: 187px;
+  left: 47%;
+  color: #00273f;
+}
+.noti {
+  border: 1px solid;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  background: red;
+  color: #fff;
+}
+.current-section {
+  background-color: #007bff; 
+  color: #fff; 
+}
+.site-nav-scroll .nav-link.current-section{
+  color: #5d5d5a !important;
+}
+@media only screen and (max-width: 820px) {
+  .jobs-content-title {
+    position: absolute;
+    top: 65vh;
+    color: #000;
+    height: 35vh;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .img {
+    width: 150px;
+  }
+  .register {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .register-form {
+    position: absolute;
+    top: 250px;
+    /* margin-left: 350px; */
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  .jobs-content-title {
+    position: absolute;
+    top: 65vh;
+    color: #000;
+    height: 30vh;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .img {
+    width: 150px;
+  }
+  .register {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .register-form {
+    position: absolute;
+    top: 250px;
+    /* margin-left: 350px; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  .jobs-content-title {
+    position: absolute;
+    top: 65vh;
+    color: #000;
+    height: 35vh;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .img {
+    width: 100px;
+  }
+
+  .register-form {
+    position: absolute;
+    top: 300px;
+    /* margin-left: 350px; */
+  }
+}
+
+@media (max-width: 767px) {
+  .jobs-content-title {
+    position: absolute;
+    top: 58vh;
+    color: #000;
+    height: 45vh;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .register {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .register-form {
+    position: absolute;
+    top: 150px;
+    left: 3%;
+  }
+  /* .login {
+    position: absolute;
+    top: 385px;
+    right: 3%;
+    /* margin: 0 auto; */
+  /* } */
+  .centered-element {
+    position: absolute;
+    top: 6%;
+    /* right: 0; */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 150px;
+  }
+  .profile {
+    position: absolute;
+    top: 100px;
+    right: 0%;
+    margin: 0 auto;
+    /* background: #cfd9de; */
+  }
+}
+@media (min-width: 768px) {
+  .jobs-content-title {
+    position: absolute;
+    top: 56vh;
+    color: #000;
+    height: 45vh;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .img {
+    width: 100px;
+  }
+ 
+}
+
+
+
